@@ -1,6 +1,6 @@
 import requests
 from requests.sessions import session
-from colorama import Fore, Color
+from colorama import Fore, Style
 import json
 import time
 
