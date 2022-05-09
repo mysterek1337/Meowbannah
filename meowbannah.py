@@ -1,5 +1,6 @@
 import requests
 from requests.sessions import session
+from colorama import Fore, Color
 import json
 import time
 
@@ -19,7 +20,7 @@ while True:
     req = session.post(x)
     
     print(req.text)
-    print('reported + L Ratio + EZ WIN + GG')
+    print(Fore.GREEN+f'reported + L Ratio + EZ WIN + GG')
 
     time.sleep(5)
 
